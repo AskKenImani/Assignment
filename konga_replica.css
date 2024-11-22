@@ -1,0 +1,189 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    font-size: 14px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.container1 > img {
+    width: 100%;
+    height: 90px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.container2 > img {
+    height: 20px;
+    width: 7%;
+}
+
+.container3 img {
+    height: 40px;
+    width: 10%;
+}
+
+.input1 input {
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.question{
+    padding: 10px;
+}
+
+.container4 {
+    background-color: brown;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.container4 p {
+    margin-left: 30px;
+    color: white;
+    height: 25px;
+    cursor: pointer;
+}
+
+.container6 p {
+    margin-left: 20px;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.container7{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container7 >img{
+    width: 95%;
+    height: 210px;
+    margin-left: 15px;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+.container8 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.deal-item {
+    border: 0.5px solid black;
+    border-radius: 5px;
+    width: 320px;
+    height: 400px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.deal-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.deal-item p {
+    margin: 5px 0;
+}
+
+.deal-item .original-price {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.deal-item .timer {
+    font-weight: bold;
+    color: red;
+}
+
+.deal-item button {
+    background-color: palevioletred;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.deal-item button:hover {
+    background-color: darkred;
+}
+.mycart{
+    background-color: green;
+    font-size: 15px;
+    color: white;
+}
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Dropdown hover effect */
+.container3 .question:hover .dropdown1 {
+    display: block;
+}
+
+.container3 .question {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown1 {
+    display: none;
+    position: absolute;
+    border: 1px solid palevioletred;
+    width: 200px;
+    padding: 10px;
+    top: 50px;
+    z-index: 99;
+}
+
+.dropdown1 a {
+    display: block;
+    padding: 8px 10px;
+    color: black;
+}
+
+.dropdown1 a:hover {
+    background-color: whitesmoke;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: palevioletred;
+    padding: 0 20px;
+    height: 50px;
+    align-items: center;
+    position: relative;
+}
+.login {
+    cursor: pointer;
+}
+.container5 {
+    cursor: pointer;
+}

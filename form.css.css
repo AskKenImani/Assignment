@@ -1,0 +1,76 @@
+.form{
+    background-color: whitesmoke;
+    align-items: center;
+    height: 600px;
+    width: 430px;
+    text-align: left;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.create{
+    color: blue;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 30px;
+}
+.First{
+    font-size: 14px;
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+.Last{
+    font-size: 14px;
+    height: 30px;
+    border-radius: 5px;
+    width: 200px;
+}
+.mobile{
+    font-size: 15px;
+    height: 30px;
+    width: 415px;
+    border-radius: 5px;
+}
+.date{
+    font-size: 14px;
+    height: 30px;
+    width: 130px;
+    border-radius: 3px;
+}
+.month{
+    font-size: 14px;
+    height: 30px;
+    width: 150px;
+    border-radius: 3px;
+}
+.year{
+    font-size: 14px;
+    height: 30px;
+    width: 135px;
+    border-radius: 3px;
+}
+.female{
+    font-size: 14px;
+    height: 30px;
+    width: 140px;
+    border-radius: 5px;
+    text-align: left;
+}
+.sign{
+    background-color: green;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    width: 420px;
+}
+.easy{
+    text-align: center;
+}
+.account{
+    text-align: center;
+}
