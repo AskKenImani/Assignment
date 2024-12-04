@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="Styles/game.css">
+</head>
+<body>
+    <div class="parent-container">
+        <h2>Rock, Paper and Scissors</h2>
+        <p>Type <b>'Rock'</b>, <b>'Paper'</b> or <b>'Scissors'</b> and <b>Click Play</b></p>
+        <input type="text" id="input" placeholder="Your Choice">
+        <button id="play" class="play">Play</button>
+        <div class="score">
+            <p>Player score: <span id="me">0</span></p>
+            <p>Computer score: <span id="computer">0</span></p>
+        </div>
+        <div class="result">
+            <p id="roundResult"></p>
+            <p id="winner"></p>
+        </div>
+    </div>
+    <script src="./Javascript/game.js"></script>
+</body>
+</html>
